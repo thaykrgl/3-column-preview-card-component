@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  margin: 20vh auto 0 auto;
+  max-width: 1100px;
+}
+
+.flex-container .img {
+  margin-bottom: 4vh;
+}
+
+.flex-container h3 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.2rem;
+  margin-bottom: 4vh;
+  text-transform: uppercase;
+}
+
+.flex-container p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6rem;
+  margin-bottom: 12vh;
+}
+
+.flex-container a {
+  background: hsl(0, 0%, 95%);
+  padding: 1.8vh 2.3vw;
+  border-radius: 50px;
+}
+
+.pd {
+  padding: 7vh 4.7vw 7vh 3.5vw;
+}
+
+.border-rad-left {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.border-rad-right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.sedan-link {
+  color: hsl(31, 77%, 52%);
+}
+
+.sedan-link:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.suv-link {
+  color: hsl(184, 100%, 22%);
+}
+
+.suv-link:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.luxury-link {
+  color: hsl(179, 100%, 13%);
+}
+
+.luxury-link:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 1vh;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+    margin: 10vh 5vw 0 5vw;
+  }
+
+  .flex-container p {
+    margin-bottom: 5vh;
+  }
+
+  .flex-container a {
+    padding: 2vh 7vw;
+  }
+
+  .pd {
+    padding: 7vh 17vw 7vh 17vw;
+  }
+
+  .border-rad-left {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .border-rad-right {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 1200px) {
+  .flex-container {
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+}
