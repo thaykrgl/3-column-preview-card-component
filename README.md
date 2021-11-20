@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/thaykrgl)
-- Live Site URL: [Github Pages](https://thaykrgl.github.io/profile-card-component/)
+- Live Site URL: [Github Pages](https://thaykrgl.github.io/3-column-preview-card-component/)
 
 ## My process
 
