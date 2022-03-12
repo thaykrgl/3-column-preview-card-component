@@ -6,7 +6,7 @@ This is a solution to the [3 Column Preview Card Component Challenge on Frontend
 
 - [Overview](#overview)
 - [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshots)
 - [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
@@ -20,10 +20,14 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
 
-<img src="./img/3-column-preview-card-component-desktop.png" alt="pcc-desktop">
-<img src="./img/3-column-preview-card-component-mobile.png" alt="pcc-mobile">
+
+#### Desktop View
+<img src="./img/3-column-preview-card-component-desktop.png" alt="Desktop View">
+
+#### Mobile View
+<img src="./img/3-column-preview-card-component-mobile.png" alt="Mobile View">
 
 ### Links
 
@@ -35,9 +39,10 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
 - Mobile-first workflow
+- Flexbox
+- Media Queries
+- Google Fonts
 
 ## Author
 
